@@ -26,3 +26,54 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.poster {
+  height: 120px;
+}
+
+.filmrow {
+  display: flex;
+  margin: 5px;
+}
+
+.filmListingTitle {
+  margin: 10px;
+}
+
+.filmListingDate {
+  margin: 10px;
+}
+
+.film-library {
+  background-color: gray;
+  height: 100%;
+  width: 100%;
+}
+
+.film-list {
+  /* margin-top: 20px; */
+  padding: 0;
+}
+
+.film-details {
+  /* margin-top: 20px; */
+  margin-right: 5px;
+}
+
+.header li {
+  list-style: none;
+  color: white;
+}
+
+.header {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navElem {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-color: gray;
+}
